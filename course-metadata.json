@@ -1,0 +1,35 @@
+{
+  "id": "68f2d958554ae005c9d44bb0",
+  "title": "Python Programming",
+  "description": "A comprehensive course that covers from basics to advanced programming concepts in Python.",
+  "learningObjectives": [
+    "Understand the fundamental concepts of Python",
+    "Utilize Python's built-in libraries effectively",
+    "Master object-oriented programming with Python",
+    "Write clean and efficient Python code",
+    "Manipulate data using Python's standard libraries",
+    "Build complex applications with Python"
+  ],
+  "finalProjectDetails": {
+    "overview": "Final project will involve building a complex application using Python, integrating all concepts learned throughout the course",
+    "planningResources": [
+      "Design Document template",
+      "Resource list for libraries"
+    ],
+    "submissionInstructions": "Submit your final project code on the course submission platform along with a detailed readme explaining your design choices",
+    "requirements": [
+      ""
+    ]
+  },
+  "createdBy": {
+    "name": "Hanna Akhramchuk",
+    "githubUsername": "akhhanna20"
+  },
+  "contributors": [],
+  "status": "pending",
+  "originalGithubUrl": null,
+  "remoteGithubUrl": "https://github.com/akhhanna20/python-programming-test",
+  "createdAt": "2025-10-18T00:03:36.324Z",
+  "updatedAt": "2025-10-18T16:07:33.766Z",
+  "lessonCount": 8
+}
