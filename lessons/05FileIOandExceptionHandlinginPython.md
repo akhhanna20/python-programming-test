@@ -1,22 +1,27 @@
-# File I/O and Exception Handling in Python
+# Comprehensive Guide to File I/O and Exception Handling in Python
 
 ## Overview
 
-Learn about file interactions and handling exceptions in Python
+File manipulation techniques and the importance of exception handling for robust, reliable code.
 
 ## Learning Objectives
 
-- Read from and write to files
-- Handle exceptions
+- Perform essential file operations efficiently and securely.
+- Implement exception handling to ensure program stability and error mitigation.
 
 ## Topics Covered
 
 - File I/O
 - Exception Handling
+- Scenarios Requiring Exception Handling
 
 ## Status
 
-pending
+complete
+
+
+
+
 
 ## Subsections
 
@@ -24,11 +29,29 @@ Subsections will be added as the lesson progresses.
 
 ## Supplemental Videos
 
-No supplemental videos available
+- [https://www.example.com/file-io-tutorial](https://www.example.com/file-io-tutorial)
+- [https://www.example.com/exception-handling-tutorial](https://www.example.com/exception-handling-tutorial)
 
 ## References
 
-No references available
+- [https://docs.python.org/3/tutorial/inputoutput.html](https://docs.python.org/3/tutorial/inputoutput.html)
+- [https://realpython.com/python-exceptions/](https://realpython.com/python-exceptions/)
+
+## Resources
+
+No resources available
+
+## Additional Resources
+
+No additional resources available
+
+## Code Examples
+
+No code examples available
+
+## Discussion
+
+No discussion topics available
 
 ## Podcast URL
 
