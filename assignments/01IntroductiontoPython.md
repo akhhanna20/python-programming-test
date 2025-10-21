@@ -1,29 +1,38 @@
-# Assignment 1: Set Up Python and Write a Simple Program
+# Assignment 1: Setup Python Environment and Write First Program
 
 ## Objective
 
-Install Python and write your first Python program.
+Learn the basics of setting up Python on your machine and writing your first Python program.
 
 ## Expected Capabilities
 
 - Install Python
-- Write and run a basic Python program
+- Set up a Python IDE
+- Write and execute a simple Python program
 
 ## Instructions
 
 ### Part 1
 
-**Download and Install Python**
+**Install Python**
 
-Download Python from the official website and complete the installation.
+Download and install the latest version of Python from the official Python website.
 
 ```
 N/A
 ```
 
-**Write and Execute Your First Program**
+**Set Up an IDE**
 
-Create a Python script to print 'Hello, World!' to the console.
+Choose and set up an IDE such as PyCharm or Visual Studio Code for Python programming.
+
+```
+N/A
+```
+
+**Write a Simple Python Program**
+
+Write a Python program that prints 'Hello, World!' to the console using your IDE.
 
 ```
 print('Hello, World!')
@@ -31,9 +40,9 @@ print('Hello, World!')
 
 ## Tasks
 
-### Task 1: Create a Python Script
+### Task 1: Write a simple Python program
 
-Write a script to print 'Hello, World!'
+Write a Python program that prints 'Hello, World!' to the console.
 
 ```
 print('Hello, World!')
@@ -41,37 +50,37 @@ print('Hello, World!')
 
 ## Submission Instructions
 
-Submit a screenshot of your Python script with the output screen.
+Submit a screenshot of your Python program running in the console with the output visible.
 
 ## Checklist
 
 - [ ] Python Installed
-- [ ] First Program Written
-- [ ] Program Executed Successfully
+- [ ] IDE Set Up
+- [ ] Program Written
 - [ ] Output Verified
 
 ## Check for Understanding
 
-**What command is used to print something in Python?**
+**What is Python primarily used for?**
 
-- println
-- show
-- print
-
-**Answer:** [Your answer here]
-
-**What year was Python created?**
-
-- 1995
-- 1981
-- 1991
+- Web Development
+- Data Analysis
+- All of the above
 
 **Answer:** [Your answer here]
 
-**What environment is suggested for running Python scripts?**
+**Why is 'Hello, World!' a common first program?**
 
-- IDLE
-- Eclipse
-- BlueJ
+- It prints to console, demonstrating code execution
+- It initializes the system
+- It configures the environment
+
+**Answer:** [Your answer here]
+
+**Which tool is necessary to write and execute Python code?**
+
+- Web browser
+- Text editor or IDE
+- Database server
 
 **Answer:** [Your answer here]
