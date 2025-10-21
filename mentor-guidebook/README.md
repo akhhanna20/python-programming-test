@@ -2,7 +2,7 @@
 
 ## Course Information
 
-**Course:** Python Programming
+**Course:** Beginner to Advanced Python Programming
 **Total Lessons:** 8
 **Course Status:** pending
 
@@ -20,7 +20,7 @@
 
 **Key Topics:** Topics will be covered as the lesson progresses.
 
-**Assignment:** Set Up Python and Write a Simple Program
+**Assignment:** Setup Python Environment and Write First Program
 
 **Common Challenges:** [To be filled by mentors based on experience]
 
@@ -56,7 +56,7 @@
 
 **Tips for Mentors:** [To be filled by mentors based on experience]
 
-### Lesson 5: File I/O and Exception Handling in Python
+### Lesson 5: Comprehensive Guide to File I/O and Exception Handling in Python
 
 **Key Topics:** Topics will be covered as the lesson progresses.
 

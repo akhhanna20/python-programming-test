@@ -1,25 +1,24 @@
 {
   "id": "68f2d958554ae005c9d44bb0",
-  "title": "Python Programming",
-  "description": "A comprehensive course that covers from basics to advanced programming concepts in Python.",
+  "title": "Beginner to Advanced Python Programming",
+  "description": "Embark on an exciting journey to master Python programming, progressing from foundational concepts to advanced skills. This course is ideal for beginners eager to dive into the fascinating world of coding, offering insights into Python's expansive role in industries such as web development, data science, artificial intelligence, and automation. A significant feature of Python is its extensive library support, enabling rapid development and innovation across various domains. Through engaging hands-on examples and immersive projects, you'll learn to build dynamic websites with Flask and Django, manipulate data using Pandas and NumPy, and automate recurring tasks. The course also introduces key tools like Selenium and BeautifulSoup for effective web scraping, making programming both practical and enjoyable. By the end of this comprehensive course, you'll have the skills and confidence to create functional websites, analyze data, and develop solutions to real-world challenges using Python. Get ready to unleash your potential and harness Python for innovative coding solutions.",
   "learningObjectives": [
-    "Understand the fundamental concepts of Python",
-    "Utilize Python's built-in libraries effectively",
-    "Master object-oriented programming with Python",
-    "Write clean and efficient Python code",
-    "Manipulate data using Python's standard libraries",
-    "Build complex applications with Python"
+    "Effectively utilize Python's built-in and third-party libraries for efficient development.",
+    "Develop robust Python applications using top frameworks and libraries.",
+    "Understand foundational Python programming concepts and apply them to solve real-world problems.",
+    "Create websites, manage data, and automate processes using Python."
   ],
   "finalProjectDetails": {
-    "overview": "Final project will involve building a complex application using Python, integrating all concepts learned throughout the course",
-    "planningResources": [
-      "Design Document template",
-      "Resource list for libraries"
-    ],
-    "submissionInstructions": "Submit your final project code on the course submission platform along with a detailed readme explaining your design choices",
+    "overview": "This project offers the opportunity to address a real-world problem by developing a Python-based application relevant to fields such as healthcare data analysis or e-commerce automation. Projects might include creating a web-based application with Flask to manage customer inquiries or crafting a predictive sales analysis tool using Pandas. This experience encourages utilizing Python data structures, libraries, and control structures for comprehensive solutions, with a focus on innovation and practical problem-solving in selected domains.",
     "requirements": [
-      ""
-    ]
+      "Develop and show proficiency in Python by creating a comprehensive application leveraging multiple tools and libraries."
+    ],
+    "planningResources": [
+      "Design Document Template",
+      "Resource List for Libraries",
+      "Examples of Past Projects"
+    ],
+    "submissionInstructions": "Submit the complete project code along with documentation detailing the development and implementation process using the course submission platform."
   },
   "createdBy": {
     "name": "Hanna Akhramchuk",
@@ -30,6 +29,665 @@
   "originalGithubUrl": null,
   "remoteGithubUrl": "https://github.com/akhhanna20/python-programming-test",
   "createdAt": "2025-10-18T00:03:36.324Z",
-  "updatedAt": "2025-10-18T16:07:33.766Z",
-  "lessonCount": 8
+  "updatedAt": "2025-10-21T15:37:42.450Z",
+  "lessonCount": 8,
+  "lessonMetadata": [
+    {
+      "id": "68f2d958554ae005c9d44bb9",
+      "lessonNumber": 1,
+      "title": "Introduction to Python",
+      "status": "complete",
+      "assignment": {
+        "title": "Setup Python Environment and Write First Program",
+        "objective": "Learn the basics of setting up Python on your machine and writing your first Python program.",
+        "expectedCapabilities": [
+          "Install Python",
+          "Set up a Python IDE",
+          "Write and execute a simple Python program"
+        ],
+        "submissionInstructions": "Submit a screenshot of your Python program running in the console with the output visible.",
+        "tasks": [
+          {
+            "taskNumber": 1,
+            "title": "Write a simple Python program",
+            "description": "Write a Python program that prints 'Hello, World!' to the console.",
+            "codeExample": "print('Hello, World!')",
+            "_id": "68f6376132f43fac1981bcbf"
+          }
+        ],
+        "instructions": [
+          {
+            "partNumber": 1,
+            "steps": [
+              {
+                "taskNumber": 1,
+                "title": "Install Python",
+                "description": "Download and install the latest version of Python from the official Python website.",
+                "codeExample": "N/A",
+                "_id": "68f6376132f43fac1981bcbc"
+              },
+              {
+                "taskNumber": 2,
+                "title": "Set Up an IDE",
+                "description": "Choose and set up an IDE such as PyCharm or Visual Studio Code for Python programming.",
+                "codeExample": "N/A",
+                "_id": "68f6376132f43fac1981bcbd"
+              },
+              {
+                "taskNumber": 3,
+                "title": "Write a Simple Python Program",
+                "description": "Write a Python program that prints 'Hello, World!' to the console using your IDE.",
+                "codeExample": "print('Hello, World!')",
+                "_id": "68f6376132f43fac1981bcbe"
+              }
+            ],
+            "_id": "68f6376132f43fac1981bcbb"
+          }
+        ],
+        "checklist": [
+          "Python Installed",
+          "IDE Set Up",
+          "Program Written",
+          "Output Verified"
+        ],
+        "checkForUnderstanding": [
+          {
+            "question": "What is Python primarily used for?",
+            "options": [
+              "Web Development",
+              "Data Analysis",
+              "All of the above"
+            ],
+            "answer": "All of the above",
+            "_id": "68f6376132f43fac1981bcb8"
+          },
+          {
+            "question": "Why is 'Hello, World!' a common first program?",
+            "options": [
+              "It prints to console, demonstrating code execution",
+              "It initializes the system",
+              "It configures the environment"
+            ],
+            "answer": "It prints to console, demonstrating code execution",
+            "_id": "68f6376132f43fac1981bcb9"
+          },
+          {
+            "question": "Which tool is necessary to write and execute Python code?",
+            "options": [
+              "Web browser",
+              "Text editor or IDE",
+              "Database server"
+            ],
+            "answer": "Text editor or IDE",
+            "_id": "68f6376132f43fac1981bcba"
+          }
+        ]
+      },
+      "subsections": [
+        {
+          "subsectionOrder": 1,
+          "title": "What is Python?",
+          "content": "Python is a high-level, interpreted programming language known for its clear syntax and readability, facilitating quick learning and ease of use for beginners. Created by Guido van Rossum and released in 1991, Python is used for web development, data analysis, artificial intelligence, and more due to its extensive libraries and community support.",
+          "videoUrl": "http://video.com/whatIsPython",
+          "codeExamples": [],
+          "externalLinks": [
+            "https://www.python.org/doc/essays/blurb/"
+          ],
+          "quizzes": [
+            {
+              "question": "Who created Python?",
+              "options": [
+                "Guido van Rossum",
+                "James Gosling",
+                "Dennis Ritchie"
+              ],
+              "answer": "Guido van Rossum",
+              "_id": "68f7a8c5027e0c9c0d5e583d"
+            }
+          ],
+          "_id": "68f6376132f43fac1981bcb2"
+        },
+        {
+          "subsectionOrder": 2,
+          "title": "Setting Up Python Programming Environment",
+          "content": "To begin programming in Python, the Python interpreter needs to be installed on your computer. You can download Python from the official website. Most systems come with Python pre-installed, but it's important to ensure you have the latest version. Once installed, you can use an Integrated Development Environment (IDE) such as PyCharm, Visual Studio Code, or Jupyter Notebook to write and execute Python code.",
+          "videoUrl": "http://video.com/pythonEnvironmentSetup",
+          "codeExamples": [],
+          "externalLinks": [
+            "https://www.python.org/downloads/",
+            "https://code.visualstudio.com/"
+          ],
+          "quizzes": [
+            {
+              "question": "What do you need to start programming in Python?",
+              "options": [
+                "To install an IDE",
+                "To install the Python interpreter",
+                "Both"
+              ],
+              "answer": "Both",
+              "_id": "68f7a8c5027e0c9c0d5e583f"
+            }
+          ],
+          "_id": "68f6376132f43fac1981bcb4"
+        },
+        {
+          "subsectionOrder": 3,
+          "title": "Writing Your First Python Program",
+          "content": "Let's write a simple Python program that prints 'Hello, World!' to the console. This program demonstrates Python's straightforward syntax and how easy it is to write and run Python code using any text editor or IDE.",
+          "videoUrl": "http://video.com/firstPythonProgram",
+          "codeExamples": [
+            "# This is a simple Python program\nprint('Hello, World!')"
+          ],
+          "externalLinks": [],
+          "quizzes": [
+            {
+              "question": "What does the 'Hello, World!' program do in Python?",
+              "options": [
+                "Opens a webpage",
+                "Prints 'Hello, World!' to the console",
+                "Sends an email"
+              ],
+              "answer": "Prints 'Hello, World!' to the console",
+              "_id": "68f7a8c5027e0c9c0d5e5841"
+            }
+          ],
+          "_id": "68f6376132f43fac1981bcb6"
+        }
+      ],
+      "supplementalVideos": [
+        "http://video.com/pythonBasics"
+      ],
+      "references": [
+        "https://docs.python.org/3/tutorial/index.html"
+      ]
+    },
+    {
+      "id": "68f2d958554ae005c9d44bba",
+      "lessonNumber": 2,
+      "title": "Control Structures in Python",
+      "status": "pending",
+      "assignment": {
+        "title": "Assignment will be generated",
+        "objective": "Objective will be provided when lesson is generated",
+        "expectedCapabilities": [],
+        "instructions": [],
+        "tasks": [],
+        "submissionInstructions": "Submission instructions will be provided when lesson is generated"
+      },
+      "subsections": []
+    },
+    {
+      "id": "68f2d958554ae005c9d44bbb",
+      "lessonNumber": 3,
+      "title": "Functions in Python",
+      "status": "pending",
+      "assignment": {
+        "title": "Create Basic Python Functions",
+        "objective": "Develop functions that utilize parameters and return statements effectively.",
+        "expectedCapabilities": [
+          "Define and call Python functions",
+          "Use parameters and arguments",
+          "Implement return statements"
+        ],
+        "submissionInstructions": "Submit a file containing the functions and test cases demonstrating their use.",
+        "tasks": [
+          {
+            "taskNumber": 1,
+            "title": "Write a Function to Calculate Area",
+            "description": "Define a function named 'calculate_area' which calculates the area of a rectangle with given width and height.",
+            "codeExample": "def calculate_area(width, height):\n    return width * height\n\nprint(calculate_area(5, 3))",
+            "_id": "68f3bada554997814939003d"
+          }
+        ],
+        "instructions": [
+          {
+            "partNumber": 1,
+            "steps": [
+              {
+                "taskNumber": 1,
+                "title": "Define a Simple Function",
+                "description": "Create a function called 'square_number' that receives a number as a parameter and returns its square.",
+                "codeExample": "def square_number(n):\n    return n * n\n\nprint(square_number(4))",
+                "_id": "68f3bada554997814939003b"
+              },
+              {
+                "taskNumber": 2,
+                "title": "Utilize Parameters",
+                "description": "Write a function 'greet_person' that takes first and last names as parameters and prints a greeting message.",
+                "codeExample": "def greet_person(first_name, last_name):\n    print('Hello, ' + first_name + ' ' + last_name)\n\ngreet_person('John', 'Doe')",
+                "_id": "68f3bada554997814939003c"
+              }
+            ],
+            "_id": "68f3bada554997814939003a"
+          }
+        ],
+        "checklist": [
+          "Function 'square_number' defined and working",
+          "Function 'greet_person' defined and outputs correctly",
+          "Function 'calculate_area' defined and returns correct area"
+        ],
+        "checkForUnderstanding": [
+          {
+            "question": "What does a function in Python return when no return statement is used?",
+            "options": [
+              "'None'",
+              "'0'",
+              "'False'"
+            ],
+            "answer": "'None'",
+            "_id": "68f3bada5549978149390038"
+          },
+          {
+            "question": "What is the difference between parameters and arguments?",
+            "options": [
+              "Parameters are passed in function call while arguments are in function definition",
+              "Arguments are passed in function call while parameters are in function definition",
+              "They are the same"
+            ],
+            "answer": "Arguments are passed in function call while parameters are in function definition",
+            "_id": "68f3bada5549978149390039"
+          }
+        ]
+      },
+      "subsections": [
+        {
+          "subsectionOrder": 1,
+          "title": "Introduction to Functions",
+          "content": "Functions in Python are blocks of code that only run when it is called. They help in dividing the program into smaller and modular chunks. Instead of writing the same code again and again, you can call the function when needed, which reduces redundancy and simplifies code maintenance.",
+          "videoUrl": "http://video.com/introductionToFunctions",
+          "codeExamples": [
+            "def hello_world():\n    print('Hello, World!')\n\nhello_world()"
+          ],
+          "externalLinks": [
+            "https://realpython.com/defining-your-own-python-function/"
+          ],
+          "quizzes": [
+            {
+              "question": "What is a function in Python used for?",
+              "options": [
+                "To divide the program into smaller parts",
+                "To store large amounts of data",
+                "To speed up the program"
+              ],
+              "answer": "To divide the program into smaller parts",
+              "_id": "68f7a8c5027e0c9c0d5e585f"
+            }
+          ],
+          "_id": "68f3bada5549978149390030"
+        },
+        {
+          "subsectionOrder": 2,
+          "title": "Defining and Calling Functions",
+          "content": "To define a function, you use the 'def' keyword, followed by the function name, parentheses, and a colon. Within the parentheses, you can include parameters (optional) that are inputs to the function. A defined function does not execute until it is called by its name followed by parentheses.",
+          "videoUrl": "http://video.com/definingAndCallingFunctions",
+          "codeExamples": [
+            "def greet(name):\n    return 'Hello ' + name\n\nprint(greet('Alice'))"
+          ],
+          "externalLinks": [
+            "https://www.tutorialspoint.com/python/python_functions.htm"
+          ],
+          "quizzes": [
+            {
+              "question": "How do you define a function in Python?",
+              "options": [
+                "Using 'function' keyword",
+                "Using 'def' keyword",
+                "Using 'method' keyword"
+              ],
+              "answer": "Using 'def' keyword",
+              "_id": "68f7a8c5027e0c9c0d5e5861"
+            }
+          ],
+          "_id": "68f3bada5549978149390032"
+        },
+        {
+          "subsectionOrder": 3,
+          "title": "Function Parameters and Arguments",
+          "content": "Parameters are variables listed inside the parentheses in the function definition. You can use more than one parameter by separating them with commas. Arguments are the data you pass into the function's parameters when you call it, allowing you to pass different data at runtime.",
+          "videoUrl": "http://video.com/parametersAndArguments",
+          "codeExamples": [
+            "def greet(firstName, lastName):\n    return 'Hello ' + firstName + ' ' + lastName\n\nprint(greet('Alice', 'Smith'))"
+          ],
+          "externalLinks": [
+            "https://www.w3schools.com/python/python_functions.asp"
+          ],
+          "quizzes": [
+            {
+              "question": "What are parameters in a Python function?",
+              "options": [
+                "Inputs to the function",
+                "Outputs from the function",
+                "Variables that store results"
+              ],
+              "answer": "Inputs to the function",
+              "_id": "68f7a8c5027e0c9c0d5e5863"
+            }
+          ],
+          "_id": "68f3bada5549978149390034"
+        },
+        {
+          "subsectionOrder": 4,
+          "title": "Return Statement",
+          "content": "The return statement is used to exit a function and return a value. It is particularly useful for getting output from your functions that you can use elsewhere in your code. If no return statement is provided, the function returns 'None'.",
+          "videoUrl": "http://video.com/returnStatement",
+          "codeExamples": [
+            "def add(a, b):\n    return a + b\n\nresult = add(3, 5)\nprint(result)"
+          ],
+          "externalLinks": [
+            "https://www.geeksforgeeks.org/python-return-statement/"
+          ],
+          "quizzes": [
+            {
+              "question": "What is the role of the return statement?",
+              "options": [
+                "To finish a function call and exit the function",
+                "To define the function",
+                "To call the function"
+              ],
+              "answer": "To finish a function call and exit the function",
+              "_id": "68f7a8c5027e0c9c0d5e5865"
+            }
+          ],
+          "_id": "68f3bada5549978149390036"
+        }
+      ],
+      "supplementalVideos": [
+        "http://video.com/advancedFunctionTopics"
+      ],
+      "references": [
+        "https://docs.python.org/3/tutorial/controlflow.html",
+        "https://www.learnpython.org/en/Functions"
+      ]
+    },
+    {
+      "id": "68f2d958554ae005c9d44bbc",
+      "lessonNumber": 4,
+      "title": "Python Data Structures",
+      "status": "pending",
+      "assignment": {
+        "title": "Assignment will be generated",
+        "objective": "Objective will be provided when lesson is generated",
+        "expectedCapabilities": [],
+        "instructions": [],
+        "tasks": [],
+        "submissionInstructions": "Submission instructions will be provided when lesson is generated"
+      },
+      "subsections": []
+    },
+    {
+      "id": "68f2d958554ae005c9d44bbd",
+      "lessonNumber": 5,
+      "title": "Comprehensive Guide to File I/O and Exception Handling in Python",
+      "status": "complete",
+      "assignment": {
+        "title": "Assignment will be generated",
+        "objective": "Objective will be provided when lesson is generated",
+        "expectedCapabilities": [],
+        "instructions": [],
+        "tasks": [],
+        "submissionInstructions": "Submission instructions will be provided when lesson is generated"
+      },
+      "subsections": [],
+      "supplementalVideos": [
+        "https://www.example.com/file-io-tutorial",
+        "https://www.example.com/exception-handling-tutorial"
+      ],
+      "references": [
+        "https://docs.python.org/3/tutorial/inputoutput.html",
+        "https://realpython.com/python-exceptions/"
+      ]
+    },
+    {
+      "id": "68f2d958554ae005c9d44bbe",
+      "lessonNumber": 6,
+      "title": "Object Oriented Programming (OOP) in Python",
+      "status": "complete",
+      "assignment": {
+        "title": "Assignment will be generated",
+        "objective": "Objective will be provided when lesson is generated",
+        "expectedCapabilities": [],
+        "instructions": [],
+        "tasks": [],
+        "submissionInstructions": "Submission instructions will be provided when lesson is generated"
+      },
+      "subsections": [],
+      "references": [
+        "Learning Python, 5th Edition by Mark Lutz",
+        "Python Programming: An Introduction to Computer Science by John Zelle",
+        "Official Python Documentation on Classes"
+      ]
+    },
+    {
+      "id": "68f2d958554ae005c9d44bbf",
+      "lessonNumber": 7,
+      "title": "Python Standard Libraries",
+      "status": "pending",
+      "assignment": {
+        "title": "Assignment will be generated",
+        "objective": "Objective will be provided when lesson is generated",
+        "expectedCapabilities": [],
+        "instructions": [],
+        "tasks": [],
+        "submissionInstructions": "Submission instructions will be provided when lesson is generated"
+      },
+      "subsections": []
+    },
+    {
+      "id": "68f2d958554ae005c9d44bc0",
+      "lessonNumber": 8,
+      "title": "Practical Python Applications",
+      "status": "complete",
+      "assignment": {
+        "title": "Develop a Simple Web Application Using Flask",
+        "objective": "To create a simple web application using the Flask framework to understand the key concepts of web application development in Python.",
+        "expectedCapabilities": [
+          "Setup a Flask project",
+          "Develop a simple web application with defined routes"
+        ],
+        "submissionInstructions": "Submit the screenshot of your web application running in a browser.",
+        "tasks": [
+          {
+            "taskNumber": 1,
+            "title": "Develop a Simple Flask Application",
+            "description": "Follow the instructions to setup and run a basic Flask application.",
+            "codeExample": "from flask import Flask\napp = Flask(__name__)\n\n@app.route('/')\ndef home():\n return 'Welcome to my web app!'\n\nif __name__ == '__main__':\n app.run(debug=True)",
+            "_id": "68f3badb554997814939004d"
+          }
+        ],
+        "instructions": [
+          {
+            "partNumber": 1,
+            "steps": [
+              {
+                "taskNumber": 1,
+                "title": "Setup Flask Environment",
+                "description": "Install Flask and setup a basic project directory.",
+                "codeExample": "pip install Flask",
+                "_id": "68f3badb554997814939004b"
+              },
+              {
+                "taskNumber": 2,
+                "title": "Create a Simple Web App",
+                "description": "Create a simple Flask web application that displays a welcome message.",
+                "codeExample": "from flask import Flask\napp = Flask(__name__)\n\n@app.route('/')\ndef home():\n return 'Welcome to my web app!'\n\nif __name__ == '__main__':\n app.run(debug=True)",
+                "_id": "68f3badb554997814939004c"
+              }
+            ],
+            "_id": "68f3badb554997814939004a"
+          }
+        ],
+        "checklist": [
+          "Flask Installed",
+          "Basic App Created",
+          "App Running in Browser"
+        ],
+        "checkForUnderstanding": [
+          {
+            "question": "What is Flask mainly used for?",
+            "options": [
+              "Data Analysis",
+              "Web Development",
+              "Image Processing"
+            ],
+            "answer": "Web Development",
+            "_id": "68f3badb5549978149390048"
+          },
+          {
+            "question": "In Flask, which method defines a route?",
+            "options": [
+              "@route",
+              "@app.route",
+              "@flask.route"
+            ],
+            "answer": "@app.route",
+            "_id": "68f3badb5549978149390049"
+          }
+        ]
+      },
+      "subsections": [
+        {
+          "subsectionOrder": 1,
+          "title": "Introduction to Python Applications",
+          "content": "Python is a versatile language used in various applications across different domains. These include web development, data science, automation, machine learning, and more. This section will provide an overview of these applications and discuss Python's role in each.\n\n**Web Development**: Python's frameworks such as Django and Flask are widely used to develop web applications. For example, a simple Flask web app might showcase a basic 'Hello, World!' message served on a webpage.\n\n**Data Science**: With libraries like Pandas and NumPy, Python excels in data analysis and processing. Analysts use Python to manipulate datasets and visualize data patterns.\n\n**Automation**: Python automates repetitive tasks using scripts. It's popular in web scraping with libraries like BeautifulSoup, which gathers data from websites efficiently.\n\n**Machine Learning**: Libraries such as TensorFlow and sci-kit-learn provide tools for building models that allow computers to learn from and make predictions or decisions based on data.",
+          "videoUrl": "http://video.com/pythonApplications",
+          "codeExamples": [
+            "from flask import Flask\napp = Flask(__name__)\n\n@app.route('/')\ndef hello_world():\n    return 'Hello, World!'"
+          ],
+          "externalLinks": [
+            "https://www.python.org/about/apps/",
+            "https://realpython.com/what-can-i-do-with-python/"
+          ],
+          "quizzes": [
+            {
+              "question": "Which of the following is NOT a use case for Python?",
+              "options": [
+                "Web Development",
+                "Mobile App Development",
+                "Data Science"
+              ],
+              "answer": "Mobile App Development",
+              "_id": "68f7a8c6027e0c9c0d5e588a"
+            },
+            {
+              "question": "Which Python library is commonly used for automation tasks like web scraping?",
+              "options": [
+                "Flask",
+                "BeautifulSoup",
+                "Django"
+              ],
+              "answer": "BeautifulSoup",
+              "_id": "68f7a8c6027e0c9c0d5e588b"
+            }
+          ],
+          "_id": "68f7a7df027e0c9c0d5e581d"
+        },
+        {
+          "subsectionOrder": 2,
+          "title": "Python for Web Development",
+          "content": "Python is widely used in web development due to its simplicity and readability. Popular frameworks such as Django and Flask enable the rapid building of robust web applications. We will discuss:\n\n- **Django**: A high-level Python Web framework that encourages rapid development and clean, pragmatic design. Django is great for building complex, database-driven websites.\n\n- **Flask**: A micro web framework for Python. Flask is often used for simpler applications or for services that require more lightweight and flexible architectures.\n\n### Detailed Comparison\n- **Use Cases**: Django is typically used for larger scale applications that require a lot of built-in features. Flask is preferred for small to medium-sized applications or for APIs.\n- **Performance**: Generally, Flask can be faster for simple applications because it is lightweight. However, performance depends on the specific use case and implementation.\n- **Ease of Use**: Django provides many built-in functionalities, which speeds up the development process but has a steeper learning curve. Flask is simpler and more flexible, allowing more control over the components used.\n\n**Comparison Table**\n\n| Criteria        | Django                               | Flask                       |\n|-----------------|--------------------------------------|-----------------------------|\n| Use Cases       | Large-scale, database-driven         | Small to medium scale, APIs |\n| Performance     | Feature-rich, more overhead          | Lightweight, faster setup   |\n| Ease of Use     | Built-in functionalities, steeper curve | Simple, flexible setup    |\n\n### FastAPI\n- **Introduction**: FastAPI is an emerging Python web framework that is optimized for building APIs quickly and with minimal code. It is based on standard Python type hints and is designed to build RESTful APIs quickly with automatic validation.\n- **Benefits**: FastAPI is easy to use and is gaining popularity for its impressive performance.\n- **When to Use**: FastAPI is a great choice for projects that need high performance, such as serving a large number of requests per second, and when the project requires API-first development.\n\n### Real-World Applications\n- **Django**: Instagram and Pinterest use Django for its scalability and robust features.\n- **Flask**: LinkedIn and Pinterest use Flask for lightweight components of their services.\n- **FastAPI**: Microsoft and Uber have adopted FastAPI for some of their services for its async support and speed.\n\n### REST APIs\n- Python frameworks like Django, Flask, and FastAPI greatly assist in REST API development by providing essential tools for creating RESTful web services efficiently.",
+          "videoUrl": "http://video.com/pythonWebDevelopment",
+          "codeExamples": [
+            "from flask import Flask\napp = Flask(__name__)\n\n@app.route('/')\ndef hello_world():\n return 'Hello, World!'"
+          ],
+          "externalLinks": [
+            "https://djangoproject.com",
+            "https://flask.palletsprojects.com/"
+          ],
+          "quizzes": [
+            {
+              "question": "Which framework is considered a micro web framework for Python?",
+              "options": [
+                "Django",
+                "Flask",
+                "FastAPI"
+              ],
+              "answer": "Flask",
+              "_id": "68f7a8c6027e0c9c0d5e588d"
+            },
+            {
+              "question": "What is one benefit of Django over Flask?",
+              "options": [
+                "It's easier to learn",
+                "It supports lightweight applications",
+                "It encourages rapid development with built-in features"
+              ],
+              "answer": "It encourages rapid development with built-in features",
+              "_id": "68f7a8c6027e0c9c0d5e588e"
+            },
+            {
+              "question": "Which framework is optimized for high performance and building APIs quickly?",
+              "options": [
+                "Django",
+                "Flask",
+                "FastAPI"
+              ],
+              "answer": "FastAPI",
+              "_id": "68f7a8c6027e0c9c0d5e588f"
+            }
+          ],
+          "_id": "68f7a7df027e0c9c0d5e5820"
+        },
+        {
+          "subsectionOrder": 3,
+          "title": "Data Science and Python",
+          "content": "Python is essential in data science for data manipulation, analysis, and visualization due to libraries like Pandas, NumPy, and Matplotlib.\n- Pandas: Provides data structures for efficiently storing large datasets.\n- NumPy: Supports large, multi-dimensional arrays and matrices, along with a collection of mathematical functions.\n- Matplotlib: A plotting library for Python inspired by MATLAB.",
+          "videoUrl": "http://video.com/pythonDataScience",
+          "codeExamples": [
+            "import pandas as pd\nimport numpy as np\n\ndata = pd.DataFrame({'Name': ['John', 'Anna'], 'Age': [28, 24]})\nprint(data)"
+          ],
+          "externalLinks": [
+            "https://pandas.pydata.org/",
+            "https://numpy.org/"
+          ],
+          "quizzes": [
+            {
+              "question": "Which library in Python is used for data manipulation?",
+              "options": [
+                "NumPy",
+                "Pandas",
+                "SciPy"
+              ],
+              "answer": "Pandas",
+              "_id": "68f7a8c6027e0c9c0d5e5891"
+            }
+          ],
+          "_id": "68f7a7df027e0c9c0d5e5824"
+        },
+        {
+          "subsectionOrder": 4,
+          "title": "Python for Automation",
+          "content": "Automation is made easier with Python using scripts that automatically perform repetitive tasks. Libraries such as Selenium and BeautifulSoup are integral to web scraping and browser automation respectively.",
+          "videoUrl": "http://video.com/pythonAutomation",
+          "codeExamples": [
+            "from selenium import webdriver\n\nbrowser = webdriver.Chrome()\nbrowser.get('http://example.com')"
+          ],
+          "externalLinks": [
+            "https://selenium.dev/",
+            "https://www.crummy.com/software/BeautifulSoup/"
+          ],
+          "quizzes": [
+            {
+              "question": "Which library is commonly used for web scraping in Python?",
+              "options": [
+                "BeautifulSoup",
+                "Request",
+                "OpenCV"
+              ],
+              "answer": "BeautifulSoup",
+              "_id": "68f7a8c6027e0c9c0d5e5893"
+            }
+          ],
+          "_id": "68f7a7df027e0c9c0d5e5826"
+        }
+      ],
+      "supplementalVideos": [
+        "http://video.com/pythonApplicationsOverview"
+      ],
+      "references": [
+        "https://realpython.com/tutorials/python-web-dev/",
+        "https://jakevdp.github.io/PythonDataScienceHandbook/"
+      ]
+    }
+  ]
 }

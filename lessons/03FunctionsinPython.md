@@ -2,21 +2,27 @@
 
 ## Overview
 
-Understand the concept of functions and how to write them in Python
+Deep dive into defining and invoking Python functions to facilitate clean, modular code development.
 
 ## Learning Objectives
 
-- Create and call Python functions
+- Create and call Python functions to perform specific tasks.
+- Effectively use parameters, arguments, and return statements.
+- Write functions that solve common challenges in web development and data analysis.
 
 ## Topics Covered
 
 - Function Definition
-- Function Call
-- Parameters
+- Function Utilization
+- Parameters and Return Statements
 
 ## Status
 
 pending
+
+
+
+
 
 ## Subsections
 
@@ -145,6 +151,22 @@ print(result)
 
 - [https://docs.python.org/3/tutorial/controlflow.html](https://docs.python.org/3/tutorial/controlflow.html)
 - [https://www.learnpython.org/en/Functions](https://www.learnpython.org/en/Functions)
+
+## Resources
+
+No resources available
+
+## Additional Resources
+
+No additional resources available
+
+## Code Examples
+
+No code examples available
+
+## Discussion
+
+No discussion topics available
 
 ## Podcast URL
 
